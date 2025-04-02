@@ -1,9 +1,10 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addToStoredReadList, addToStoredWishList } from '../../utility/addToDb';
+import PageTitle from '../PageTitle';
 
 const BookDetail = () => {
-
+   
     const { bookId } = useParams();
     // console.log(useParams());
     
@@ -36,14 +37,15 @@ const BookDetail = () => {
     }
 
     return (
-        <div className='my-12'>
-            <h2>Book details: {bookId}</h2>
-            <img className='w-36' src={image} alt="" />
-            <br />
-            <button onClick={() => handleMarkAsRead(bookId)} className="btn btn-outline mr-4 btn-accent">Mark as Read</button>
-            <button onClick={() => handleAddToWishList(bookId)} className="btn btn-accent">Add to Wish List</button>
+       <> <PageTitle title="BookDetail" />
+       <div className='my-12'>
+           <h2>Book details: {bookId}</h2>
+           <img className='w-36' src={image} alt="" />
+           <br />
+           <button onClick={() => handleMarkAsRead(bookId)} className="btn btn-outline mr-4 btn-accent">Mark as Read</button>
+           <button onClick={() => handleAddToWishList(bookId)} className="btn btn-accent">Add to Wish List</button>
 
-        </div>
+       </div></>
     );
 };
 
