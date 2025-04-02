@@ -16,7 +16,7 @@ const addToStoredReadList = (id) => {
     const storedList = getStoredReadList();
     if (storedList.includes(id)) {
         // already exists. do not add it
-        console.log(id, 'already exists in the read list')
+        toast('Already Exist')
     }
     else {
         storedList.push(id);
@@ -43,7 +43,7 @@ const addToStoredWishList = (id) => {
     const storedWishList = getStoredWishList();
     if (storedWishList.includes(id)) {
         // already exists. do not add it
-        console.log(id, 'already exists in the read list')
+        toast(`${id}, already exists in the read list`)
     }
     else {
         storedWishList.push(id);
@@ -52,4 +52,4 @@ const addToStoredWishList = (id) => {
     }
 }
 
-export { addToStoredReadList, addToStoredWishList, getStoredReadList }
+export { addToStoredReadList, addToStoredWishList, getStoredReadList, getStoredWishList }

@@ -5,13 +5,18 @@ import { addToStoredReadList, addToStoredWishList } from '../../utility/addToDb'
 const BookDetail = () => {
 
     const { bookId } = useParams();
+    // console.log(useParams());
+    
     const data = useLoaderData();
     const id = parseInt(bookId);
+    console.log("Hey X. g");
+    
+    console.log(data);
     // console.log(typeof bookId, typeof id,  typeof data[0].bookId)
 
     const book = data.find(book => book.bookId === id);
     
-    const {bookId: currentBookId, image} = book;
+    const {image} = book;
 
     const handleMarkAsRead = (id) =>{
         /**
