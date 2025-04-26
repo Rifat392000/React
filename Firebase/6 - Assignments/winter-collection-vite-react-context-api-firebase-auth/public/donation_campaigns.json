@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "Books for Rural Schools",
+      "image": "https://i.ibb.co.com/2YKC71t4/health.jpg",
+      "description": "Providing books and educational supplies to rural schools.",
+      "status": "Active",
+      "contactInfo": "books@donate.org",
+      "division": "Education"
+    },
+    {
+      "id": 2,
+      "title": "Clean Water Access",
+      "image": "https://i.ibb.co.com/6RY98TZm/food.jpg",
+      "description": "Installing water filters and wells in remote areas.",
+      "status": "Ongoing",
+      "contactInfo": "water@donate.org",
+      "division": "Health"
+    },
+    {
+      "id": 3,
+      "title": "Winter Clothing Drive",
+      "image": "https://i.ibb.co.com/FbPg92qw/relief.jpg",
+      "description": "Collecting winter clothes for the homeless.",
+      "status": "Completed",
+      "contactInfo": "clothes@donate.org",
+      "division": "Relief"
+    },
+    {
+      "id": 4,
+      "title": "Medical Supplies for Clinics",
+      "image": "https://i.ibb.co.com/6RY98TZm/food.jpg",
+      "description": "Donating medical supplies to underserved clinics.",
+      "status": "Active",
+      "contactInfo": "medsupplies@donate.org",
+      "division": "Health"
+    },
+    {
+      "id": 5,
+      "title": "Backpacks for Kids",
+      "image": "https://i.ibb.co.com/2YKC71t4/health.jpg",
+      "description": "Providing backpacks and supplies to school children.",
+      "status": "Planned",
+      "contactInfo": "backpacks@donate.org",
+      "division": "Education"
+    },
+    {
+      "id": 6,
+      "title": "Emergency Relief Fund",
+      "image": "https://i.ibb.co.com/FbPg92qw/relief.jpg",
+      "description": "Rapid response fund for disaster-affected areas.",
+      "status": "Active",
+      "contactInfo": "relief@donate.org",
+      "division": "Relief"
+    }
+  ]
+  
